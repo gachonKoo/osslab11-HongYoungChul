@@ -1,9 +1,6 @@
-# geo/__init__.py
+# __init__.py
 
+from .utils import calculate_distance
 
-from .utils import some_function  # 예: geo/utils.py에 있는 some_function을 가져옴
-from .calculations import calculate_area  # 예: geo/calculations.py에 있는 calculate_area를 가져옴
-
-
-print("geo 패키지가 초기화되었습니다.")
-
+# 이 패키지를 사용할 때 calculate_distance 함수를 편리하게 접근할 수 있도록 합니다.
+__all__ = ['calculate_distance']
