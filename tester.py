@@ -10,4 +10,3 @@ if __name__ == "__main__":
     c, area = calculate_circle(radius)
     print(f"c = {c}")
     print(f"area = {area}")
-
